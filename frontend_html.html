@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>
+        Vehicle Information
+    </title>
+</head>
+<style>
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        }
+</style>
+<body >
+    <form name = "veh_data" action = "backend_py.py" method = "POST">
+        <label for='name'>Name:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="veh_name">Vehicle Name:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="prcs_date">Purchase date:</label>
+        <input type="text"> 
+        <br>
+        <br>
+        <label for="ph_no">Phone number:</label>
+        <input type="text">
+        <br>
+        <br>
+        <input type="submit" value = "Submit">
+    </form>
+</body>
+</html>
